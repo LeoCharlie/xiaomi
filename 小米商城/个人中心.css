@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    max-width: 800px;
+    max-height: 440px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+    text-decoration: none;
+}
+/*head*/
+.head{
+    height: 104px;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 30%;
+    padding: 20px 0;
+    color: gray;
+    vertical-align: middle;
+    line-height: 64px;
+}
+.glyphicon.glyphicon-search{
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.orange{
+    height: 136px;
+    width: 100%;
+    background-color: orangered;
+}
+.man{
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 50%;
+    height: 112px;
+    width: 112px;
+    text-align: center;
+    margin-top: -90px;
+    position: absolute;
+    left: 46%;
+}
+.man span{
+    line-height: 120%; 
+    font-size: 80px;
+}
+.pay{
+    margin-top: -22px;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-around;
+}
+.payall{
+    height: 120px;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 2px solid red;
+    margin-top: 60px;
+}
+.glyphicon.glyphicon-list-alt{
+    font-size: 50px;
+}
+.two{
+    border-bottom: 2px solid green;
+}
+.three{
+    border-bottom: 2px solid orange;;
+}
+.cost{
+    height: 62px;
+    width: 100%;
+    margin-top: 24px;
+    background-color: white;
+    font-size: 25px;
+    line-height: 62px;
+    padding-left: 30px;
+}
+.cost img{
+    margin-right: 30px;
+    vertical-align: middle;
+    margin-top: -15px;
+}
+/*footer*/
+footer{
+    width: 800px;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    flex-basis: 20%;
+    justify-content: space-between;
+    font-size: 30px;
+}
+footer a{
+    color: orangered;
+}
+.footer{
+    text-align: center;
+}

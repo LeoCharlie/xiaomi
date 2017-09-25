@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,
+    minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <script src="fontResize.js"></script>
+    <title>小米</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        html{
+            height: 100%;
+        }
+        body{
+            padding: 0 7.5vw; 
+            margin: 0;
+            background-color: #eeeeee;
+            min-height: 100%;
+            position: relative;
+            padding-bottom: 25vw;
+        }
+        .center{
+            height: 85%;
+            width: 85vw;
+            background-color: #eeeeee;
+            margin: 0 auto;
+        }
+        .header{
+            border: 1px solid #eeeeee;
+        }
+        .logo{
+           height: 60%;
+           margin-top: 40px;
+           text-align: center;
+        }
+        .logo img{
+           height: 50px;
+           width: 50px;
+        }
+        .shuru{
+            margin-top: 30px;
+        }
+        .zhanghao{
+            background-color: white;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;   
+        }
+        .mima{
+            background-color: white;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top: 1px solid #eeeeee;
+        }
+        input{
+            border: none;
+            font-size: 0.6rem;
+            width: 100%;
+            padding: .8em 1em;
+        }
+        input:focus {
+            outline: none;
+        }
+        .denglu{
+            margin-top: 8vw;
+            line-height: 200%;
+            background-color: #ef5b00;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 0.8em;
+            color: white;
+        }
+        .other{
+            margin-top: 35px;
+            font-size: 0.6rem;
+            color: #9d9d9d;
+        }
+        fieldset{
+            text-align: center;
+            border: none;
+            border-top: 1px dashed #9d9d9d;
+        }
+        fieldset>legend>a{
+            color: #9d9d9d;
+        }
+        .picture{
+            display: flex;
+            height: 50px;
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 20px;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .picture img{
+            height: 45px;
+            width: 45px;
+        }
+        .way{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            float: left;
+        }
+        #one{       
+            background-color: #0288d1;
+            background-image: url(iconstype_wap.png);
+            background-position: -7px;
+            background-size: 500%;
+        }
+        #two{       
+            background-color: #d32f2f;
+            background-image: url(iconstype_wap.png);
+            background-position: 165px;
+            background-size: 450%;
+        }
+        #three{       
+            background-color: #0288d1;
+            background-image: url(iconstype_wap.png);
+            background-position: -97px;
+            background-size: 400%;
+            background-repeat: no-repeat;
+            
+        }
+        .forget{
+            margin-top: 40px;
+            color: #9d9d9d;
+            text-align: center;
+            font-size: 0.6rem;
+        }
+        a{
+            color: #9d9d9d;
+            text-decoration: none;   
+        }
+        a:hover{
+            color: #ef5b00;
+        }
+        .footer{
+            height: 25vw;
+            width: 85vw;
+            position: absolute;
+            bottom: 0;
+            
+        }
+        .footer span{
+            color: #9d9d9d;
+        }
+        .lg{
+            text-align: center;
+            font-size: 0.6rem;
+        }
+        .bottom{
+            margin-top: 10px;
+            text-align: center;
+            font-size: 0.6rem;
+        }
+    </style>
+</head>
+<body>
+     
+        <div class="center">
+        <!--header-->
+        <div class="header">
+            <div class="logo">
+              <img src="milogo@2x.png" alt="">
+              <div class="span">小米账号登录</div>
+            </div>
+        </div>
+        
+        <!--二维码-->
+        <div class="two">
+            <img src="" alt="">
+        </div>
+        <!--账号-->
+        <div class="shuru">
+              <input class="zhanghao" type="text" placeholder="邮箱/手机号码/小米掌柜账号">
+              <input  class="mima" type="text" placeholder="密码">     
+        </div>
+        
+        <!--登录-->
+        <a href="商城.html"><div class="denglu">
+            <span>立即登录</span>
+        </div></a>
+        
+        <!--其他方式-->
+        <div class="other">
+            <fieldset>
+                <legend>其他方式登录</legend>
+            </fieldset>
+        </div>
+        
+        <!--QQ 微信 支付宝-->
+        <div class="picture">
+            <a href=""><div class="way" id="one">
+            </div></a>
+            <a href=""><div class="way" id="two">
+            </div></a>
+            <a href=""><div class="way" id="three">
+            </div></a>
+        </div>
+        
+        <!--忘记密码-->
+        <div class="forget">
+            <a href="">注册小米账号&nbsp&nbsp&nbsp</a>
+            <span>|</span>
+            <a href="">&nbsp&nbsp&nbsp忘记密码？</a>
+        </div>
+        </div>
+   
+      <!--底部-->
+      <div class="footer">
+          <div class="lg">
+              <a href="">简体</a>
+              <span>|</span>
+              <a href="">繁体</a>
+              <span>|</span>
+              <a href="">English</a>
+              <span>|</span>
+              <a href="">常见问题</a>
+          </div>
+          <div class="bottom">
+              <a href="">小米公司版权所有-京ICP备10046444-
+              <img src="ghs.png" alt="">京公网安备11010802020134号-京ICP证110507号</a>
+          </div>
+      </div>
+   
+</body>
+</html>
